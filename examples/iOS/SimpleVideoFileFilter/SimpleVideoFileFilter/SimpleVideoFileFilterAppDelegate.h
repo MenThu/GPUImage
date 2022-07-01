@@ -1,9 +1,9 @@
 #import <UIKit/UIKit.h>
-@class SimpleVideoFileFilterViewController;
+@class VideoFileterDemoController;
 
 @interface SimpleVideoFileFilterAppDelegate : UIResponder <UIApplicationDelegate>
 {
-    SimpleVideoFileFilterViewController *rootViewController;
+    VideoFileterDemoController *rootViewController;
 }
 
 @property (strong, nonatomic) UIWindow *window;

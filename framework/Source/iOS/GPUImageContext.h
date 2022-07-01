@@ -5,7 +5,7 @@
 #define GPUImageRotationSwapsWidthAndHeight(rotation) ((rotation) == kGPUImageRotateLeft || (rotation) == kGPUImageRotateRight || (rotation) == kGPUImageRotateRightFlipVertical || (rotation) == kGPUImageRotateRightFlipHorizontal)
 
 typedef NS_ENUM(NSUInteger, GPUImageRotationMode) {
-	kGPUImageNoRotation,
+	kGPUImageNoRotation = 0,
 	kGPUImageRotateLeft,
 	kGPUImageRotateRight,
 	kGPUImageFlipVertical,

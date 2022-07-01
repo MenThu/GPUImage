@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		466AE00B14F2A196004FE0E5 /* sample_iPod.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 466AE00A14F2A196004FE0E5 /* sample_iPod.m4v */; };
+		6941F1D5286EA3A100B3FE84 /* VideoFileterDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6941F1D3286EA3A100B3FE84 /* VideoFileterDemoController.m */; };
+		6941F1D6286EA3A100B3FE84 /* VideoFileterDemoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6941F1D4286EA3A100B3FE84 /* VideoFileterDemoController.xib */; };
+		6941F1DB286EA55C00B3FE84 /* normal_hor_video.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 6941F1D7286EA55C00B3FE84 /* normal_hor_video.MOV */; };
+		6941F1DC286EA55C00B3FE84 /* bug_video.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 6941F1D8286EA55C00B3FE84 /* bug_video.MP4 */; };
+		6941F1DD286EA55C00B3FE84 /* RPReplay_Final1647349830.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 6941F1D9286EA55C00B3FE84 /* RPReplay_Final1647349830.MP4 */; };
+		6941F1DE286EA55C00B3FE84 /* normal_ver_video.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 6941F1DA286EA55C00B3FE84 /* normal_ver_video.MP4 */; };
 		BC11C28315BCBE2300E5BEC7 /* WID-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC11C28215BCBE2300E5BEC7 /* WID-small.jpg */; };
 		BCB3C43A16BCA871003D26B0 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB3C43516BCA871003D26B0 /* Icon-72.png */; };
 		BCB3C43B16BCA871003D26B0 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB3C43616BCA871003D26B0 /* Icon-72@2x.png */; };
@@ -21,7 +27,6 @@
 		BCB5DDDB14E86899000AF3C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5DDDA14E86899000AF3C2 /* main.m */; };
 		BCB5DDDF14E86899000AF3C2 /* SimpleVideoFileFilterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5DDDE14E86899000AF3C2 /* SimpleVideoFileFilterAppDelegate.m */; };
 		BCB5DDE814E868C0000AF3C2 /* SimpleVideoFileFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5DDE614E868C0000AF3C2 /* SimpleVideoFileFilterViewController.m */; };
-		BCB5DDE914E868C0000AF3C2 /* SimpleVideoFileFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB5DDE714E868C0000AF3C2 /* SimpleVideoFileFilterViewController.xib */; };
 		BCB5DDF914E876DD000AF3C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDF814E876DD000AF3C2 /* AVFoundation.framework */; };
 		BCB5DDFC14E876ED000AF3C2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDFA14E876ED000AF3C2 /* CoreMedia.framework */; };
 		BCB5DDFD14E876ED000AF3C2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDFB14E876ED000AF3C2 /* CoreVideo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -57,6 +62,13 @@
 
 /* Begin PBXFileReference section */
 		466AE00A14F2A196004FE0E5 /* sample_iPod.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample_iPod.m4v; sourceTree = "<group>"; };
+		6941F1D2286EA3A100B3FE84 /* VideoFileterDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoFileterDemoController.h; sourceTree = "<group>"; };
+		6941F1D3286EA3A100B3FE84 /* VideoFileterDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoFileterDemoController.m; sourceTree = "<group>"; };
+		6941F1D4286EA3A100B3FE84 /* VideoFileterDemoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoFileterDemoController.xib; sourceTree = "<group>"; };
+		6941F1D7286EA55C00B3FE84 /* normal_hor_video.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = normal_hor_video.MOV; path = ../../../../../Downloads/normal_hor_video.MOV; sourceTree = "<group>"; };
+		6941F1D8286EA55C00B3FE84 /* bug_video.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = bug_video.MP4; path = ../../../../../Downloads/bug_video.MP4; sourceTree = "<group>"; };
+		6941F1D9286EA55C00B3FE84 /* RPReplay_Final1647349830.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = RPReplay_Final1647349830.MP4; path = ../../../../../Downloads/RPReplay_Final1647349830.MP4; sourceTree = "<group>"; };
+		6941F1DA286EA55C00B3FE84 /* normal_ver_video.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = normal_ver_video.MP4; path = ../../../../../Downloads/normal_ver_video.MP4; sourceTree = "<group>"; };
 		BC11C28215BCBE2300E5BEC7 /* WID-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WID-small.jpg"; sourceTree = "<group>"; };
 		BCB3C43516BCA871003D26B0 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../../SharedIcons/Icon-72.png"; sourceTree = "<group>"; };
 		BCB3C43616BCA871003D26B0 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "../../SharedIcons/Icon-72@2x.png"; sourceTree = "<group>"; };
@@ -75,7 +87,6 @@
 		BCB5DDDE14E86899000AF3C2 /* SimpleVideoFileFilterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleVideoFileFilterAppDelegate.m; sourceTree = "<group>"; };
 		BCB5DDE514E868C0000AF3C2 /* SimpleVideoFileFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleVideoFileFilterViewController.h; sourceTree = "<group>"; };
 		BCB5DDE614E868C0000AF3C2 /* SimpleVideoFileFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleVideoFileFilterViewController.m; sourceTree = "<group>"; };
-		BCB5DDE714E868C0000AF3C2 /* SimpleVideoFileFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleVideoFileFilterViewController.xib; sourceTree = "<group>"; };
 		BCB5DDEA14E8756A000AF3C2 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = ../../../framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
 		BCB5DDF814E876DD000AF3C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		BCB5DDFA14E876ED000AF3C2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -108,6 +119,10 @@
 		BCB5DDBF14E86899000AF3C2 = {
 			isa = PBXGroup;
 			children = (
+				6941F1D8286EA55C00B3FE84 /* bug_video.MP4 */,
+				6941F1D7286EA55C00B3FE84 /* normal_hor_video.MOV */,
+				6941F1DA286EA55C00B3FE84 /* normal_ver_video.MP4 */,
+				6941F1D9286EA55C00B3FE84 /* RPReplay_Final1647349830.MP4 */,
 				E5066F5B1855AC55008C7682 /* Default-568h@2x.png */,
 				BCB5DDD414E86899000AF3C2 /* SimpleVideoFileFilter */,
 				BCB5DDCD14E86899000AF3C2 /* Frameworks */,
@@ -146,7 +161,9 @@
 				BCB5DDDE14E86899000AF3C2 /* SimpleVideoFileFilterAppDelegate.m */,
 				BCB5DDE514E868C0000AF3C2 /* SimpleVideoFileFilterViewController.h */,
 				BCB5DDE614E868C0000AF3C2 /* SimpleVideoFileFilterViewController.m */,
-				BCB5DDE714E868C0000AF3C2 /* SimpleVideoFileFilterViewController.xib */,
+				6941F1D2286EA3A100B3FE84 /* VideoFileterDemoController.h */,
+				6941F1D3286EA3A100B3FE84 /* VideoFileterDemoController.m */,
+				6941F1D4286EA3A100B3FE84 /* VideoFileterDemoController.xib */,
 				BCB5DDD514E86899000AF3C2 /* Supporting Files */,
 			);
 			path = SimpleVideoFileFilter;
@@ -208,12 +225,18 @@
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Cell Phone";
+				TargetAttributes = {
+					BCB5DDC914E86899000AF3C2 = {
+						DevelopmentTeam = 25GP64SU6U;
+					};
+				};
 			};
 			buildConfigurationList = BCB5DDC414E86899000AF3C2 /* Build configuration list for PBXProject "SimpleVideoFileFilter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = BCB5DDBF14E86899000AF3C2;
@@ -255,12 +278,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCB5DDD914E86899000AF3C2 /* InfoPlist.strings in Resources */,
-				BCB5DDE914E868C0000AF3C2 /* SimpleVideoFileFilterViewController.xib in Resources */,
 				466AE00B14F2A196004FE0E5 /* sample_iPod.m4v in Resources */,
+				6941F1D6286EA3A100B3FE84 /* VideoFileterDemoController.xib in Resources */,
 				E5066F5C1855AC55008C7682 /* Default-568h@2x.png in Resources */,
+				6941F1DB286EA55C00B3FE84 /* normal_hor_video.MOV in Resources */,
+				6941F1DD286EA55C00B3FE84 /* RPReplay_Final1647349830.MP4 in Resources */,
 				BC11C28315BCBE2300E5BEC7 /* WID-small.jpg in Resources */,
 				BCB3C43A16BCA871003D26B0 /* Icon-72.png in Resources */,
+				6941F1DE286EA55C00B3FE84 /* normal_ver_video.MP4 in Resources */,
 				BCB3C43B16BCA871003D26B0 /* Icon-72@2x.png in Resources */,
+				6941F1DC286EA55C00B3FE84 /* bug_video.MP4 in Resources */,
 				BCB3C43C16BCA871003D26B0 /* Icon.png in Resources */,
 				BCB3C43D16BCA871003D26B0 /* Icon@2x.png in Resources */,
 				BCB3C43E16BCA871003D26B0 /* iTunesArtwork.png in Resources */,
@@ -276,6 +303,7 @@
 			files = (
 				BCB5DDDB14E86899000AF3C2 /* main.m in Sources */,
 				BCB5DDDF14E86899000AF3C2 /* SimpleVideoFileFilterAppDelegate.m in Sources */,
+				6941F1D5286EA3A100B3FE84 /* VideoFileterDemoController.m in Sources */,
 				BCB5DDE814E868C0000AF3C2 /* SimpleVideoFileFilterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,10 +411,16 @@
 		BCB5DDE314E86899000AF3C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 25GP64SU6U;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleVideoFileFilter/SimpleVideoFileFilter-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					$SRCROOT/../../../framework/source,
+					$SRCROOT/../../../framework/source/iOS,
+				);
 				INFOPLIST_FILE = "SimpleVideoFileFilter/SimpleVideoFileFilter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,7 +432,12 @@
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleVideoFileFilter/SimpleVideoFileFilter-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					$SRCROOT/../../../framework/source,
+					$SRCROOT/../../../framework/source/iOS,
+				);
 				INFOPLIST_FILE = "SimpleVideoFileFilter/SimpleVideoFileFilter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

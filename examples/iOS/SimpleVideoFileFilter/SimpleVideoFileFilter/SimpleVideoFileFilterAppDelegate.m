@@ -1,5 +1,6 @@
 #import "SimpleVideoFileFilterAppDelegate.h"
 #import "SimpleVideoFileFilterViewController.h"
+#import "VideoFileterDemoController.h"
 
 @implementation SimpleVideoFileFilterAppDelegate
 
@@ -17,7 +18,7 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
-    rootViewController = [[SimpleVideoFileFilterViewController alloc] initWithNibName:@"SimpleVideoFileFilterViewController" bundle:nil];
+    rootViewController = [[VideoFileterDemoController alloc] init];
     rootViewController.view.frame = [[UIScreen mainScreen] bounds];
     self.window.rootViewController = rootViewController;
 //    [self.window addSubview:rootViewController.view];
